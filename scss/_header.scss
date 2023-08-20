@@ -1,0 +1,86 @@
+@mixin anclas {
+    text-decoration: none;
+    list-style-type: none;
+    color: $color-fuente;
+    font-size: 55px;
+}
+
+header {
+    .carousel-img-size {
+        width: auto;
+        max-height: 100vh;
+    }
+
+    .carousel-inner .carousel-item {
+        background-blend-mode: multiply;
+        background-color: #545555;
+    }
+
+    .carousel-inner .carousel-item img {
+        opacity: 0.5;
+    }
+
+    .social-media {
+        position: absolute;
+        top: 0%;
+        left: 1%;
+        text-align: center;
+        transform: translate(50%, 50%);
+    }
+    
+    i {
+        margin: 15px;
+    }
+
+    .logo-index {
+        position: absolute;
+        top: 18%;
+        left: 51%;
+        text-align: center;
+        transform: translate(-50%, -50%)
+    }
+
+    .logo {
+        position: absolute;
+        top: 18%;
+        left: 51%;
+        text-align: center;
+        transform: translate(-50%, -50%)
+    }
+
+    .slogan {
+        font-size: 30px;
+        font-weight: bold;
+        color: $color-fuente;
+    }
+    
+    .nav-menu {
+        position: absolute;
+        top: 85%;
+        right: 45%;
+        transform: translate(40%, -90%);
+    }
+
+    li {
+        margin: 20px;
+        list-style-type: none;
+        a{
+            @include anclas;
+            &:hover {
+                color: $color-botones;
+            }
+        }
+    }
+
+   .img-logo-pulpo {
+    width: 50px;
+    height: 50px;
+    margin-right: 190px;
+   }
+
+   .navbar {
+    position: absolte;
+    width: 10%;
+    height: 50%;
+   }
+}

@@ -1,0 +1,57 @@
+.contenedorComidas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 60px;
+    margin: 3rem 0;
+  }
+  
+  .producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #363953;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productoImagen {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .productoTitulo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .productoDescripcion {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .productoPrecio {
+    font-size: 26px;
+    font-weight: bold;
+    color: $color-botones;
+    text-align: center;
+  }
+  
+  .productoBTN {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: $color-botones-secundarios;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+  }

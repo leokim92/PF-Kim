@@ -1,0 +1,134 @@
+main {
+    p {
+        color: $color-receta;
+    }
+
+    h3 {
+        font-size: 25px;
+        color: $color-botones-secundarios;
+        margin-top: 40px;
+    }
+
+    .background-adj {
+        background-image: url(../img/background\ black.avif);
+        background-attachment: fixed;
+        color: $color-fuente;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .background-adj-salad {
+        background-image: url(../img/salad.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 250px;
+    }
+
+    .background-adj-sushi {
+        background-image: url(../img/sushi\ menu.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 250px;
+    }
+
+    .background-adj-batidos {
+        background-image: url(../img/batidos\ menu.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 250px;
+    }
+
+    .background-adj-cocktails {
+        background-image: url(../img/cocktail\ menu.webp);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 250px;
+    }
+
+    .imagenGaleria {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        filter: grayscale(50%);
+
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+
+    .galeria-container {
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .contenedor-paladar {
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+
+        .img-paladar {
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+        }
+    }
+
+    .contenedor-bar {
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+
+        .img-bar {
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+        }
+    }
+
+    .contenedor-eventos {
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+
+        .img-eventos {
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+        }
+    }
+
+    .menu-entradas {
+        margin: 50px;
+        gap: 30px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .allMenu {
+        padding-bottom: 50px;
+    }
+
+    .allEnsaladas {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .menuEnsaladas {
+        padding-bottom: 50px;
+    }
+
+    .allRollos {
+        padding-top: 50px;
+    }
+
+    .menuRollos {
+        margin: 50px;
+        gap: 30px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+}

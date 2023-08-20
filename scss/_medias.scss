@@ -1,0 +1,77 @@
+@media (max-width:1500px) {
+    .nav-menu {
+        display:none
+    }
+
+    .contenedor-paladar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-eventos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (min-width:1500px) {
+    .navbar {
+     display: none;
+    }
+}
+
+@media (max-width:964px) {
+    .navbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    .logo-index {
+        display: none;
+    }
+
+    .contact-container{
+        margin: 0 auto;
+        width: 90%
+    }
+
+    .contenedor-eventos {
+        margin: 0 auto;
+        width: 90%
+    }
+}
+
+@media (max-width:800px){
+    .logo {
+        height: 0px;
+    }
+
+    .logo-img {
+        margin-top: 100px;
+        width: 325px;
+    }
+}
+
+@media (max-width:700px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 20rem !important;
+    }
+
+    .map iframe {
+        height: 400px;
+    }
+}
