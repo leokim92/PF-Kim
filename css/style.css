@@ -149,18 +149,21 @@ main .background-adj-cocktails {
   background-size: cover;
   height: 250px;
 }
+main .galeria-container {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 auto;
+}
 main .imagenGaleria {
   margin: 0;
   padding: 0;
   height: auto;
   filter: grayscale(50%);
+  transition: filter 0.5s, transform 0.5s;
 }
 main .imagenGaleria:hover {
   filter: grayscale(0%);
-}
-main .galeria-container {
-  overflow: hidden;
-  margin: 0 auto;
+  transform: scale(1.1, 1.1);
 }
 main .contenedor-paladar {
   padding-top: 50px;

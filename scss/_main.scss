@@ -46,20 +46,23 @@ main {
         height: 250px;
     }
 
+    .galeria-container {
+        display: inline-block;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
     .imagenGaleria {
         margin: 0;
         padding: 0;
         height: auto;
         filter: grayscale(50%);
+        transition: filter 0.5s, transform 0.5s;
 
         &:hover {
             filter: grayscale(0%);
+            transform: scale(1.1 , 1.1);
         }
-    }
-
-    .galeria-container {
-        overflow: hidden;
-        margin: 0 auto;
     }
 
     .contenedor-paladar {
