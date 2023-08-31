@@ -1,6 +1,6 @@
 @media (max-width:1500px) {
     .nav-menu {
-        display:none
+        display: none
     }
 
     .contenedor-paladar {
@@ -10,7 +10,7 @@
         align-items: center;
     }
 
-    .contenedor-bar{
+    main .contenedor-bar {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -25,10 +25,9 @@
     }
 }
 
-
 @media (min-width:1500px) {
     .navbar {
-     display: none;
+        display: none;
     }
 }
 
@@ -42,7 +41,7 @@
         display: none;
     }
 
-    .contact-container{
+    .contact-container {
         margin: 0 auto;
         width: 90%
     }
@@ -53,7 +52,7 @@
     }
 }
 
-@media (max-width:800px){
+@media (max-width:800px) {
     .logo {
         height: 0px;
     }
